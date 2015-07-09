@@ -1,0 +1,173 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Header Files\new rl">
+      <UniqueIdentifier>{5c9e7429-f6a9-46fb-b622-ccf8f723e2ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\RLSystem">
+      <UniqueIdentifier>{af597235-6662-4477-a5c4-6912398ed60d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\RLResources">
+      <UniqueIdentifier>{a5bd3404-128d-4126-a26d-fab37729edf9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\RLFSM">
+      <UniqueIdentifier>{c1ad961e-6c36-4ba1-ad09-1456c0f86bb1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\new rl\RLFSM">
+      <UniqueIdentifier>{c1af1b21-a137-4869-a27a-af1fb70fa909}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\RLEntity">
+      <UniqueIdentifier>{e18486c5-ab75-4bcd-97af-06081d5e4b2d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\new rl\RLEntityBase">
+      <UniqueIdentifier>{991c9d82-1686-4731-a287-176443413d63}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\new rl\RLSystem">
+      <UniqueIdentifier>{556c4ef5-3ff8-4ce9-9980-3d19a16435fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\new rl\RLResources">
+      <UniqueIdentifier>{76f903c8-919f-4a96-b98c-6fdcc666a134}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\new rl\RLEntity">
+      <UniqueIdentifier>{10fd00f3-e244-4b96-a2cf-f085215f57d6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RLSystem.h">
+      <Filter>Header Files\new rl\RLSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="RLFSM.cpp">
+      <Filter>Source Files\RLFSM</Filter>
+    </ClCompile>
+    <ClCompile Include="RLFSMFactory.cpp">
+      <Filter>Source Files\RLFSM</Filter>
+    </ClCompile>
+    <ClCompile Include="RLObsrvCurrentFSMState.cpp">
+      <Filter>Source Files\RLFSM</Filter>
+    </ClCompile>
+    <ClCompile Include="RLObsrvNextFSMState.cpp">
+      <Filter>Source Files\RLFSM</Filter>
+    </ClCompile>
+    <ClCompile Include="RLSelActionFSMState.cpp">
+      <Filter>Source Files\RLFSM</Filter>
+    </ClCompile>
+    <ClCompile Include="RLPerfActionFSMState.cpp">
+      <Filter>Source Files\RLFSM</Filter>
+    </ClCompile>
+    <ClCompile Include="RLGetRewardFSMState.cpp">
+      <Filter>Source Files\RLFSM</Filter>
+    </ClCompile>
+    <ClCompile Include="RLAdjQFSMState.cpp">
+      <Filter>Source Files\RLFSM</Filter>
+    </ClCompile>
+    <ClCompile Include="RLFSMTransitionTable.cpp">
+      <Filter>Source Files\RLFSM</Filter>
+    </ClCompile>
+    <ClCompile Include="RLSystem.cpp">
+      <Filter>Source Files\RLSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="RLFSMState.cpp">
+      <Filter>Source Files\RLFSM</Filter>
+    </ClCompile>
+    <ClCompile Include="RLResources.cpp">
+      <Filter>Source Files\RLResources</Filter>
+    </ClCompile>
+    <ClCompile Include="RLEntity.cpp">
+      <Filter>Source Files\RLEntity</Filter>
+    </ClCompile>
+    <ClCompile Include="RLAgent.cpp">
+      <Filter>Source Files\RLEntity</Filter>
+    </ClCompile>
+    <ClCompile Include="RLLearning.cpp">
+      <Filter>Source Files\RLEntity</Filter>
+    </ClCompile>
+    <ClCompile Include="RLEnvironment.cpp">
+      <Filter>Source Files\RLEntity</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="RLFSMState.h">
+      <Filter>Header Files\new rl\RLFSM</Filter>
+    </ClInclude>
+    <ClInclude Include="RLFSMStateInput.h">
+      <Filter>Header Files\new rl\RLFSM</Filter>
+    </ClInclude>
+    <ClInclude Include="RLObsrvCurrentFSMState.h">
+      <Filter>Header Files\new rl\RLFSM</Filter>
+    </ClInclude>
+    <ClInclude Include="RLPerfActionFSMState.h">
+      <Filter>Header Files\new rl\RLFSM</Filter>
+    </ClInclude>
+    <ClInclude Include="RLSelActionFSMState.h">
+      <Filter>Header Files\new rl\RLFSM</Filter>
+    </ClInclude>
+    <ClInclude Include="RLObsrvNextFSMState.h">
+      <Filter>Header Files\new rl\RLFSM</Filter>
+    </ClInclude>
+    <ClInclude Include="RLGetRewardFSMState.h">
+      <Filter>Header Files\new rl\RLFSM</Filter>
+    </ClInclude>
+    <ClInclude Include="RLAdjQFSMState.h">
+      <Filter>Header Files\new rl\RLFSM</Filter>
+    </ClInclude>
+    <ClInclude Include="RLFSM.h">
+      <Filter>Header Files\new rl\RLFSM</Filter>
+    </ClInclude>
+    <ClInclude Include="RLFSMFactory.h">
+      <Filter>Header Files\new rl\RLFSM</Filter>
+    </ClInclude>
+    <ClInclude Include="RLFSMTransitionTable.h">
+      <Filter>Header Files\new rl\RLFSM</Filter>
+    </ClInclude>
+    <ClInclude Include="RLFSMStatesEnum.h">
+      <Filter>Header Files\new rl\RLFSM</Filter>
+    </ClInclude>
+    <ClInclude Include="RLResources.h">
+      <Filter>Header Files\new rl\RLResources</Filter>
+    </ClInclude>
+    <ClInclude Include="RLActionBase.h">
+      <Filter>Header Files\new rl\RLEntityBase</Filter>
+    </ClInclude>
+    <ClInclude Include="RLAgentBase.h">
+      <Filter>Header Files\new rl\RLEntityBase</Filter>
+    </ClInclude>
+    <ClInclude Include="RLEntityBase.h">
+      <Filter>Header Files\new rl\RLEntityBase</Filter>
+    </ClInclude>
+    <ClInclude Include="RLEnvironmentBase.h">
+      <Filter>Header Files\new rl\RLEntityBase</Filter>
+    </ClInclude>
+    <ClInclude Include="RLLearningBase.h">
+      <Filter>Header Files\new rl\RLEntityBase</Filter>
+    </ClInclude>
+    <ClInclude Include="RLRewardBase.h">
+      <Filter>Header Files\new rl\RLEntityBase</Filter>
+    </ClInclude>
+    <ClInclude Include="RLStateBase.h">
+      <Filter>Header Files\new rl\RLEntityBase</Filter>
+    </ClInclude>
+    <ClInclude Include="RLEntity.h">
+      <Filter>Header Files\new rl\RLEntity</Filter>
+    </ClInclude>
+    <ClInclude Include="RLAgent.h">
+      <Filter>Header Files\new rl\RLEntity</Filter>
+    </ClInclude>
+    <ClInclude Include="RLEnvironment.h">
+      <Filter>Header Files\new rl\RLEntity</Filter>
+    </ClInclude>
+    <ClInclude Include="RLLearning.h">
+      <Filter>Header Files\new rl\RLEntity</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
